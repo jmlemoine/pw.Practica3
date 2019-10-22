@@ -28,6 +28,82 @@ public class Articulo {
 
     }
 
+    @Override
+    public String toString(){
+        return super.toString();
 
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getCuerpo() {
+        return cuerpo;
+    }
+
+    public void setCuerpo(String cuerpo) {
+        this.cuerpo = cuerpo;
+    }
+
+    public Date getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(Date fecha) {
+        this.fecha = fecha;
+    }
+
+    public Usuario getAutor() {
+        return autor;
+    }
+
+    public void setAutor(Usuario autor) {
+        this.autor = autor;
+    }
+
+    public List<Comentario> getListComentarios() {
+        return listComentarios;
+    }
+
+    public void setListComentarios(List<Comentario> listComentarios) {
+        this.listComentarios = listComentarios;
+    }
+
+    public List<Etiqueta> getListEtiquetas() {
+        return listEtiquetas;
+    }
+
+    public void setListEtiquetas(List<Etiqueta> listEtiquetas) {
+        this.listEtiquetas = listEtiquetas;
+    }
+
+    public String getCuerpoCorto() {
+        String cuerpoCorto = "";
+
+        for(int i = 0; i < 70; i++){
+            if(i >= this.getCuerpo().length())
+            {
+                break;
+
+            }
+            cuerpoCorto += this.getCuerpo().charAt(i);
+
+        }
+        return cuerpoCorto;
+
+    }
 
 }
