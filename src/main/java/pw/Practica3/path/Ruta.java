@@ -56,6 +56,7 @@ public class Ruta {
             StringWriter writer = new StringWriter();
             Map<String, Object> atributos = new HashMap<>();
             Template template = configuration.getTemplate("plantillas/login.ftl");
+            template.process(atributos, writer);
         return writer;
 
         }));
