@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5bd459d-6ff9-449d-9ad8-bbffad7d65a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/publico/imagenes/fondo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/publico/imagenes/logo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/publico/imagenes/mlb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pw/Practica3/service/ComentarioService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/plantillas/base.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/plantillas/base.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plantillas/base.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plantillas/base.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pw/Practica3/encapsulacion/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pw/Practica3/encapsulacion/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pw/Practica3/path/Ruta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pw/Practica3/path/Ruta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pw/Practica3/service/ArticuloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pw/Practica3/service/ArticuloService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -227,7 +219,7 @@
       <workItem from="1572649321444" duration="403000" />
       <workItem from="1573080264809" duration="1751000" />
       <workItem from="1573150228516" duration="610000" />
-      <workItem from="1573778387116" duration="1140000" />
+      <workItem from="1573778387116" duration="2177000" />
     </task>
     <servers />
   </component>

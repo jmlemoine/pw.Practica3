@@ -20,7 +20,7 @@ public class Usuario {
 
     @Override
     public String toString() {
-        String mensaje="El username del usuario es: "+username;
+        String mensaje="El nombre de usuario es: "+username;
         return mensaje;
     }
 

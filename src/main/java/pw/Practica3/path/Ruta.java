@@ -5,10 +5,14 @@ import freemarker.template.Template;
 import freemarker.template.Version;
 import org.jasypt.util.text.StrongTextEncryptor;
 import pw.Practica3.Main;
+import pw.Practica3.encapsulacion.Articulo;
+import pw.Practica3.encapsulacion.Etiqueta;
 import pw.Practica3.encapsulacion.Usuario;
+import pw.Practica3.service.ArticuloService;
 import pw.Practica3.service.UsuarioService;
 
 import java.io.StringWriter;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -16,7 +20,10 @@ import static spark.Spark.*;
 
 public class Ruta {
 
+    static ArrayList<Etiqueta> etiquetaAux = new ArrayList<>();
+    static ArrayList<Articulo> articulos = new ArticuloService().
     static String nombreUsuario = "";
+    static Boolean etiquetasBool = false;
     static Usuario usuario;
 
     public static void crearRutas() {
@@ -60,6 +67,14 @@ public class Ruta {
         return writer;
 
         }));
+
+        post("/login", (req, res) -> {
+            try{
+                nombreUsuario = req.queryParams("username");
+                String contrasena = req.queryParams("password");
+                usuario = UsuarioService.
+            }
+        });
 
     }
 
